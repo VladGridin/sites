@@ -1,0 +1,50 @@
+div {
+    margin: 30px;
+    border-radius: 30px;
+}
+
+.img_1 {
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(2, 61, 255, 0.5) 50%, rgba(255, 255, 2, 0.5)), url("./img/1.jpg");
+
+
+}
+
+.img_2 {
+    width: 600px;
+    height: 600px;
+    background-repeat: no-repeat;
+    /* P.s. Я хотів додати зображення svg, як логотип, але в мене не вийшло виправити маштаб. */
+    /* background-image: url(./img/cat2.svg), url("./img/2.png"); */
+    background-image: url("./img/2.png");
+    border: dashed black 10px;
+    box-shadow: 20px -20px 50px lightgray;
+}
+
+.img_3 {
+    width: 263px;
+    height: 210px;
+    background-repeat: no-repeat;
+    background-image: url("https://i0.wp.com/dianaurban.com/wp-content/uploads/2017/07/01-cat-stretching-feet.gif");
+    border: solid black;
+}
+
+img {
+
+    box-shadow: 20px -20px 50px lightgray;
+    border-image: linear-gradient(#f6b73c, #4d9f0c) 30;
+    border-width: 4px;
+    border-style: solid;
+}
+
+.img_5 {
+    width: 600px;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-image: url("./img/5.jpg");
+    border-image: repeating-linear-gradient(30deg, #ff0000, #0015ff, #73ff00 20px) 60;
+    border-width: 30px;
+    border-style: solid;
+}

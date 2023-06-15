@@ -1,0 +1,26 @@
+ul,
+ol,
+p,
+dl {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    color: rgb(36, 36, 36);
+}
+
+ul li::marker {
+    color: blue;
+}
+
+.mr li {
+    padding-left: 10px;
+}
+
+@counter-style circled-digits {
+    system: fixed;
+    symbols: 😀 👻 👽 👾 🤖 🎃 😹 👋 👀 💋;
+    suffix: " ";
+}
+
+.cb {
+    list-style: circled-digits;
+}

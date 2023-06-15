@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Climate+Crisis&family=Lobster&family=Noto+Sans:wght@300&family=Tilt+Prism&display=swap');
+
+body {
+    background: rgb(244, 244, 255);
+
+}
+
+h1 {
+
+    font-size: 50px;
+    font-family: 'Noto Sans', sans-serif;
+    margin: auto;
+}
+
+.p1 {
+    font-size: 50px;
+    font-family: 'Caveat', cursive;
+}
+
+.p2 {
+    font-size: 50px;
+    font-family: 'Climate Crisis', cursive;
+}
+
+.p3 {
+    font-size: 50px;
+    font-family: 'Lobster', cursive;
+}
+
+.p4 {
+    font-size: 50px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.p5 {
+    font-size: 50px;
+    font-family: 'Tilt Prism', cursive;
+
+}
